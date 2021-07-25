@@ -23,7 +23,7 @@ export function retrieveBugs() {
         version:"V2.0",
         assigned:"Gopal Jain",
         created:"Hugh Mongus",
-        priority:1,
+        priority:3,
         time:"19:35"
     }));
 
