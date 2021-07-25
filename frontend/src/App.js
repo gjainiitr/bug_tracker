@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
+import Login from './Views/Login/login';
+
 
 function App() {
   return (
     <>
+    <Login />
     </>
   );
 }
