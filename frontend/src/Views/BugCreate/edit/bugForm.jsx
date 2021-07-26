@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './bugForm.css'
+import './bugForm.css' 
 import BugModel from '../../../Models/bugModel'
 export default (props) => {
     const [bugObject, setBugObject] = useState(new BugModel(props.bug));
