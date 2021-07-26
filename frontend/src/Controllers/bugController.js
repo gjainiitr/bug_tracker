@@ -10,7 +10,7 @@ export function retrieveBugs() {
         steps:"Open application and it will crash",
         version:"V2.0",
         assigned:"Gopal Jain",
-        created:"Hugh Mongus",
+        creator:"Hugh Mongus",
         priority:1,
         time:"19:35"
     }));
@@ -22,7 +22,7 @@ export function retrieveBugs() {
         steps:"Open application and it will crash",
         version:"V2.0",
         assigned:"Gopal Jain",
-        created:"Hugh Mongus",
+        creator:"Hugh Mongus",
         priority:3,
         time:"19:35"
     }));

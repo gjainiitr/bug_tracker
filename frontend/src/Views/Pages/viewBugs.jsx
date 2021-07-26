@@ -25,12 +25,13 @@ export default () => {
         });
     }
 
+
     return (
         <div className='page-container'>            
                 {bugs.map((bug,key) => (
                     <BugCard key={key} bug={bug} clicked={bugClicked}/>
                 ))}
-                {DISPLAY_BUG.isDisplayed && <BugDetailed bug={ bugs.filter((bug) => {return bug.name == DISPLAY_BUG.name})} />}            
+                {DISPLAY_BUG.isDisplayed && <BugDetailed clicked={bugClicked} bug={ bugs.filter((bug) => {return bug.name==DISPLAY_BUG.name }) } />}            
         </div>
     )
 }

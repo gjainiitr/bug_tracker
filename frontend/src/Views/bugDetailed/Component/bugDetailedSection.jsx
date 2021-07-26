@@ -2,9 +2,10 @@ import React from 'react'
 import './bugDetailedSection.css'
 
 export default (props) => {
+    console.log(props)
     return(
         <div className='view-section'>
-            <h1>{props.title}</h1>
+            <h2>{props.title}</h2>
             <p>{props.info}</p>
         </div>
     )
